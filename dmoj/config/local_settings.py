@@ -83,12 +83,12 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 # The following block is included for your convenience, if you want
 # to use Gmail.
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'ailab@qbu.edu.vn'
-EMAIL_HOST_PASSWORD = 'dbxgbrloiafwvetu'
-EMAIL_PORT = 587
+#EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+#EMAIL_USE_TLS = True
+#EMAIL_HOST = 'smtp.gmail.com'
+#EMAIL_HOST_USER = 'ailab@qbu.edu.vn'
+#EMAIL_HOST_PASSWORD = 'abcccc'
+#EMAIL_PORT = 587
 
 # To use Mailgun, uncomment this block.
 # You will need to run `pip install django-mailgun` to get `MailgunBackend`.
